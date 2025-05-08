@@ -126,23 +126,14 @@ Discuss how you will take your application to market, including aspects such as 
 - **Host Dashboard (Next.js + Shadcn UI)**
     - Web admin interface built with Next.js 13 and [shadcn/ui] on Tailwind CSS for rapid, accessible component styling [GitHub](https://github.com/shadcn-ui/next-template?utm_source=chatgpt.com).
     - Displays a list of “Partner” spots, incoming reservations, and allows manual status overrides.
-        
 - **Demo Sensor Simulation**
-    
     - A lightweight Node.js script injects randomized “occupied”/“free” flags into the `spots` table every few seconds, simulating IoT sensor input.
-        
     - Uses simple REST calls (`PATCH /spots/:id`) or direct SQL via Supabase Functions.
-        
 - **CI/CD & Hosting**
-    
     - **Mobile App:** Deployed as an Expo preview build for rapid sharing.
-        
     - **Dashboard:** Hosted on Vercel for instant deployment of the Next.js site.
-        
     - **Database & API:** Supabase handles both Postgres hosting and Realtime subscriptions.
-        
 
-This streamlined stack ensures you can deliver a fully interactive Parking Mo demo—with live availability, booking flows, and an admin dashboard—within your 13-day timeline.
 ```
 ┌─────────────────────────┐
 │  Flutter Mobile App     │
