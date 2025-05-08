@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md",
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2025-05-08 19.32.16.excalidraw"
+              "title": "Backlinks for Notes"
             }
           },
           {
@@ -210,10 +210,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "73868e43594f2b82",
+  "active": "71417722a5ad9e53",
   "lastOpenFiles": [
-    "Notes.md",
     "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md",
+    "Notes.md",
     "ProjectDescriptionHACKATHONTemplate.docx",
     "sync.sh",
     "Dev Board.md",
