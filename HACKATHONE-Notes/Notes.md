@@ -110,7 +110,10 @@ Describe how your solution addresses community needs, its potential social impac
 Discuss how you will take your application to market, including aspects such as price, location, intermediaries, etc… 
 
 **Architectural Overview**
-Outline the technical architecture of your solution. Include key components, frameworks, and technologies used, as well as how they interact to deliver the intended functionality.
+Outline the technical architecture of your solution.
+Include key components,
+frameworks, 
+and technologies used, as well as how they interact to deliver the intended functionality.
 
 **Technologies/Resources Used in the Application**
 List the programming languages, frameworks, libraries, APIs, and tools utilized in building your application. Include any external resources, such as datasets, cloud services, or third-party platforms.

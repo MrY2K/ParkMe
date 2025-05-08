@@ -28,18 +28,6 @@
             }
           },
           {
-            "id": "73868e43594f2b82",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-08 19.32.16.excalidraw"
-            }
-          },
-          {
             "id": "71417722a5ad9e53",
             "type": "leaf",
             "state": {
@@ -54,7 +42,25 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "f0bae637ae936857",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73868e43594f2b82",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-08 19.32.16.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
