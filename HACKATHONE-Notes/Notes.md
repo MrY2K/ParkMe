@@ -135,7 +135,7 @@ With this structured plan—grounded in proven sprint and hackathon methodologie
 **Problem**
 Define the specific problem your solution addresses. Explain the current challenges faced by the community or industry and why solving this problem is important.
 
-The Parking Moroccan urban/tourist hotspots—lost time, emissions, high fees.
+The Parking in Moroccan urban cities tourist hotspots—lost time, emissions, high fees.
 
 **Solution**
 Describe your proposed solution. Explain how it addresses the problem, its key features, and the value it brings to the users or community.
