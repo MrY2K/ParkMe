@@ -110,11 +110,48 @@ Describe how your solution addresses community needs, its potential social impac
 Discuss how you will take your application to market, including aspects such as price, location, intermediaries, etc… 
 
 **Architectural Overview**
-Outline the technical architecture of your solution.
-Include key components,
-frameworks, 
-and technologies used,
-as well as how they interact to deliver the intended functionality.
+## Architectural Overview (Bullet Points)
+
+- **Mobile App (Flutter)**
+    - Built with Flutter using the [Mapbox Maps SDK for Flutter] to render interactive, color-coded parking pins and price labels directly on the map [Dart packages](https://pub.dev/packages/mapbox_maps_flutter?utm_source=chatgpt.com).
+    - Users enter their current or desired location, see “Partner” spots in blue with overlaid pricing, and tap a pin to view details and reserve.
+- **Real-Time Backend (Supabase)**
+    - Leverages [Supabase Realtime] (Postgres + WebSocket) for instant updates to spot availability, powered by the `supabase_flutter` client [Supabase](https://supabase.com/docs/reference/dart/stream?utm_source=chatgpt.com).
+    
+    - Authentication via Supabase Auth; Row-Level Security (RLS) enforces per-user access to reservations.
+        
+- **Database (PostgreSQL + PostGIS)**
+    
+    - Core tables:
+        
+        - `spots` (id, latitude, longitude, status, price)
+            
+        - `reservations` (id, spot_id, user_id, timeslot)
+            
+    - PostGIS extension enables future spatial queries (e.g., radius search, clustering).
+        
+- **Host Dashboard (Next.js + Shadcn UI)**
+    
+    - Web admin interface built with Next.js 13 and [shadcn/ui] on Tailwind CSS for rapid, accessible component styling [GitHub](https://github.com/shadcn-ui/next-template?utm_source=chatgpt.com).
+        
+    - Displays a list of “Partner” spots, incoming reservations, and allows manual status overrides.
+        
+- **Demo Sensor Simulation**
+    
+    - A lightweight Node.js script injects randomized “occupied”/“free” flags into the `spots` table every few seconds, simulating IoT sensor input.
+        
+    - Uses simple REST calls (`PATCH /spots/:id`) or direct SQL via Supabase Functions.
+        
+- **CI/CD & Hosting**
+    
+    - **Mobile App:** Deployed as an Expo preview build for rapid sharing.
+        
+    - **Dashboard:** Hosted on Vercel for instant deployment of the Next.js site.
+        
+    - **Database & API:** Supabase handles both Postgres hosting and Realtime subscriptions.
+        
+
+This streamlined stack ensures you can deliver a fully interactive Parking Mo demo—with live availability, booking flows, and an admin dashboard—within your 13-day timeline.
 ```
 ┌─────────────────────────┐
 │  Flutter Mobile App     │
