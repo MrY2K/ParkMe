@@ -83,8 +83,6 @@ On your way, you tap your destination in the app—our algorithm weighs distance
 
 ---
 
-
-With this structured plan—grounded in proven sprint and hackathon methodologies—you’ll be set to deliver a polished, clickable **Parking Mo** demo in just under two weeks. Good luck!
 ## Prepare For Jury Qs;
 
 # Idea Submission
