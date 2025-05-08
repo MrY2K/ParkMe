@@ -115,6 +115,57 @@ Include key components,
 frameworks, 
 and technologies used,
 as well as how they interact to deliver the intended functionality.
+```
+┌─────────────────────────┐
+│  Flutter Mobile App     │
+│  • Map Screen           │
+│    – Mapbox SDK         │
+│    – Color-coded Pins   │
+│    – Price Labels       │
+│  • Reservation Flow     │
+│    – Modal UI           │
+│    – supabase_flutter   │
+│      or firebase_flutter│
+└────────────┬────────────┘
+             │ HTTPS / WebSocket
+             ▼
+┌─────────────────────────┐
+│  Real-Time Backend      │
+│  • Supabase Realtime    │
+│    – Postgres + Realtime│
+│    – Auth & RLS         │
+│  • OR Firebase          │
+│    – Firestore          │
+│    – Auth & Rules       │
+│  • In-Memory Mocks for  │
+│    Demo Sensor Flags    │
+└────────────┬────────────┘
+             │ Direct SQL or REST
+             ▼
+┌─────────────────────────┐
+│  PostgreSQL Database    │
+│  • Core Tables:         │
+│    – spots (id, coords, │
+│      status, price)     │
+│    – reservations       │
+│  • PostGIS Extensions   │
+│    – For spatial queries│
+└────────────┬────────────┘
+             │ GraphQL or REST API
+             ▼
+┌─────────────────────────┐
+│  Parking Manager Dashboard│
+│  • Next.js + React      │
+│  • Tailwind CSS + Shadcn UI │
+│  • Admin Templates      │
+│    – Free MUI / Refine / Next.js   │
+│  • node-postgres (pg)   │
+│    – Connection Pooling │
+│    – Queries & Mutations│
+└─────────────────────────┘
+
+```
+
 
 **Technologies/Resources Used in the Application**
 List the programming languages, frameworks, libraries, APIs, and tools utilized in building your application. Include any external resources, such as datasets, cloud services, or third-party platforms.
