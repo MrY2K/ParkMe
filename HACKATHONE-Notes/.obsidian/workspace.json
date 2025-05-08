@@ -6,7 +6,6 @@
       {
         "id": "722cc2d443612079",
         "type": "tabs",
-        "dimension": 50.92879256965944,
         "children": [
           {
             "id": "a21fdb7f6244d9fd",
@@ -29,6 +28,18 @@
             }
           },
           {
+            "id": "73868e43594f2b82",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-05-08 19.32.16.excalidraw"
+            }
+          },
+          {
             "id": "71417722a5ad9e53",
             "type": "leaf",
             "state": {
@@ -43,26 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "936966f09d6af833",
-        "type": "tabs",
-        "dimension": 49.07120743034056,
-        "children": [
-          {
-            "id": "73868e43594f2b82",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-08 19.32.16.excalidraw"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "cfa6f8aeb505de5b",
@@ -135,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md",
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2025-05-08 19.32.16.excalidraw"
+              "title": "Backlinks for Notes"
             }
           },
           {
@@ -211,11 +204,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "395d64cc35a0a3e0",
+  "active": "71417722a5ad9e53",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md",
     "ProjectDescriptionHACKATHONTemplate.docx",
     "Notes.md",
-    "Excalidraw/Drawing 2025-05-08 19.32.16.excalidraw.md",
     "sync.sh",
     "Dev Board.md",
     "Excalidraw"
