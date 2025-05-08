@@ -68,17 +68,13 @@ On your way, you tap your destination in the app—our algorithm weighs distance
 ---
 ### Phase 1: Discovery & Ideation (Days 2–3)
 #### Day 2: User Research & Personas
-- **Conduct 3 x 15 min interviews** (friends/family as proxy beach-goers/urban drivers) to validate pains & priorities [Relab Academy](https://academy.relab.com.au/design-thinking/how-to-design-an-mvp-for-an-app-in-2-weeks/?utm_source=chatgpt.com).
-- **Draft 2 Personas:** “Tourist Tina” (worries about cost/availability) and “Resident Rachid” (wants to rent out driveway) [The Sprint Book](https://www.thesprintbook.com/the-design-sprint?utm_source=chatgpt.com).
+
 #### Day 3: Storyboarding & Feature Prioritization
-- **Storyboard** each core flow on whiteboard or Miro: select screens, data points, actions [Relab Academy](https://academy.relab.com.au/design-thinking/how-to-design-an-mvp-for-an-app-in-2-weeks/?utm_source=chatgpt.com).
-- **MoSCoW Prioritization:** Mark Must-have vs. Should-have; keep MVP thin (map view, filter by tier, fake-data reserve) [Medium](https://benjiportwin.medium.com/a-real-2-weeks-sprint-3c1b86110fd9?utm_source=chatgpt.com).
+
 
 ---
 ### Phase 2: Design Sprint & Prototype (Days 4–8)
-### Day 4: UX Wireframes & UI Kit
-- **Low-fidelity wireframes** for map view, listing panel, booking modal, host dashboard [The Sprint Book](https://www.thesprintbook.com/the-design-sprint?utm_source=chatgpt.com).
-- Assemble a **UI component library** (buttons, map pins, tabs) in Figma or Sketch.
+
 ### Day 5: High-Fidelity Mockups
 
 - **Apply branding**, colors (white/blue/gold/maroon pin palette), typography, micro-copy. Finalize two main screens: home map and reserve flow [trivago tech blog](https://tech.trivago.com/post/2017-05-26-minimum-viable-sprint-a-one-week-hackathon?utm_source=chatgpt.com).
