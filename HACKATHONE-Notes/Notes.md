@@ -75,52 +75,14 @@ On your way, you tap your destination in the app—our algorithm weighs distance
 ---
 ### Phase 2: Design Sprint & Prototype (Days 4–8)
 
-### Day 5: High-Fidelity Mockups
-
-- **Apply branding**, colors (white/blue/gold/maroon pin palette), typography, micro-copy. Finalize two main screens: home map and reserve flow [trivago tech blog](https://tech.trivago.com/post/2017-05-26-minimum-viable-sprint-a-one-week-hackathon?utm_source=chatgpt.com).
-
-### Day 6: Front-end Scaffold & Navigation
-- Implement React Router or React Native navigation for core screens; stub out components with static mock data [Agile Batman](https://agilebatman.com/a-typical-2-week-sprint-calendar-60304478651b?utm_source=chatgpt.com).
-
-### Day 7: Mock-API & Data Models
-- Build Express.js mock server returning JSON for each tier (regular, partner, sponsored, individual) with occupancy flags and pricing [Medium](https://medium.com/serious-scrum/mvp-in-agile-screw-the-mvp-build-incrementally-12d18c833ea7?utm_source=chatgpt.com).
-- Connect front-end to API; render real map pins via Leaflet/Mapbox.
-
-### Day 8: Booking Flow & State Management
-- Implement “select spot → pre-reserve” modal; fake “confirm” writes to in-memory store (no payment integration) [Reddit](https://www.reddit.com/r/scrum/comments/ryb9xi/two_week_sprint_calendar/?utm_source=chatgpt.com).
-- Show a “My Reservations” screen for host and driver roles.
 ---
 ### Phase 3: Polish & Internal Testing (Days 9–11)
-#### Day 9: UI Polish & Animations
-- Add loading states, map-pin animations, and basic error alerts (no spots, “try again later”) [windmill.digital](https://windmill.digital/how-to-frame-a-complete-and-actionable-product-vision-in-2-weeks-with-design-sprints/?utm_source=chatgpt.com).
-- Finalize responsive layout for web/mobile breakpoints.
-#### Day 10: Demo Data & Edge Cases
-- Seed mock-API with 20 spots each tier, varied availability and surge-pricing examples.
-- Validate flows: no-spots scenario, booking cancellation, host view of incoming cars.
-#### Day 11: Internal Dry-Run
-- Each team member runs through flows; log 10+ usability bugs; fix critical ones only [Hackathon planning kit](https://hackathon-planning-kit.org/files/hackerearth.pdf?utm_source=chatgpt.com).
-- Refine slide deck: problem, solution, demo screenshots, technical stack, next steps.
+
 ---
 ### Phase 4: User Testing & Final Prep (Days 12–13)
-#### Day 12: 5-User Testing
-- Recruit 5 testers (your 5 people) for 20 min sessions each: ask them to complete “find & reserve” and “list a spot” tasks; observe pain‐points [Relab Academy](https://academy.relab.com.au/design-thinking/how-to-design-an-mvp-for-an-app-in-2-weeks/?utm_source=chatgpt.com).
-- Prioritize 5 high-impact fixes; implement 3 quick wins (label clarity, button placement, default map zoom).
-#### Day 13: Rehearsal & Pitch Deck
-- **Tech rehearsal:** Demo prototype, ensure no broken links.
-- **Pitch rehearsal:** 5-min problem/solution, 5-min live demo, 5-min Q&A prep.
-- **Backup plan:** Pre-recorded walkthrough video in case of connectivity issues.
+
 ---
-### Key References & Citations
-1. **2-Week Sprint Structure**: “A Typical 2 week sprint calendar” [Agile Batman](https://agilebatman.com/a-typical-2-week-sprint-calendar-60304478651b?utm_source=chatgpt.com)
-2. **Design-Sprint Day Breakdown**: Relab Academy’s 5-day MVP design sprint [Relab Academy](https://academy.relab.com.au/design-thinking/how-to-design-an-mvp-for-an-app-in-2-weeks/?utm_source=chatgpt.com)
-3. **Real 2-Week MVP Build**: Monzo’s two-week sprint lessons [Medium](https://benjiportwin.medium.com/a-real-2-weeks-sprint-3c1b86110fd9?utm_source=chatgpt.com)
-4. **One-Week Hackathon MVP**: trivago’s Minimum Viable Sprint overview [trivago tech blog](https://tech.trivago.com/post/2017-05-26-minimum-viable-sprint-a-one-week-hackathon?utm_source=chatgpt.com)
-5. **Scrum Daily Flow**: Reddit’s two-week sprint calendar [Reddit](https://www.reddit.com/r/scrum/comments/ryb9xi/two_week_sprint_calendar/?utm_source=chatgpt.com)
-6. **Hackathon Planning Kit**: Idealized hackathon timelines [Hackathon planning kit](https://hackathon-planning-kit.org/?utm_source=chatgpt.com)
-7. **Agile MVP Tips**: Serious Scrum’s incremental MVP plan [Medium](https://medium.com/serious-scrum/mvp-in-agile-screw-the-mvp-build-incrementally-12d18c833ea7?utm_source=chatgpt.com)
-8. **The Design Sprint**: Jake Knapp’s 5-day map/sketch/decide/prototype/test [The Sprint Book](https://www.thesprintbook.com/the-design-sprint?utm_source=chatgpt.com)
-9. **Hackathon Guide**: Hackathon organization best practices [Hackerearth](https://www.hackerearth.com/community-hackathons/resources/e-books/guide-to-organize-hackathon/?utm_source=chatgpt.com)
-10. **User Testing**: Emphasis on observing over asking in Relab Academy [Relab Academy](https://academy.relab.com.au/design-thinking/how-to-design-an-mvp-for-an-app-in-2-weeks/?utm_source=chatgpt.com)
+
 
 With this structured plan—grounded in proven sprint and hackathon methodologies—you’ll be set to deliver a polished, clickable **Parking Mo** demo in just under two weeks. Good luck!
 ## Prepare For Jury Qs;
